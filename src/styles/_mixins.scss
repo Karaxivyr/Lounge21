@@ -1,0 +1,22 @@
+/* src/styles/_mixins.scss */
+
+@use "./_tokens.scss" as *;
+
+@mixin l21-section-padding {
+  padding-inline: $l21-space-16;
+  padding-block: $l21-space-32;
+
+  @media (min-width: 768px) {
+    padding-inline: $l21-space-32;
+    padding-block: $l21-space-48;
+  }
+
+  @media (min-width: 1200px) {
+    padding-inline: $l21-space-64;
+  }
+}
+
+@mixin l21-max-width {
+  max-width: 1120px;
+  margin-inline: auto;
+}

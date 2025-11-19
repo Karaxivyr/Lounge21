@@ -1,0 +1,23 @@
+/* src/styles/main.scss */
+@use "./_tokens.scss" as *;
+@use "./_mixins.scss" as *;
+@use "./base.scss";
+
+/* Smooth club gradient for the whole app */
+body {
+  background: linear-gradient(
+    135deg,
+    #05091a 0%,
+    #111b3a 32%,
+    #1e2559 60%,
+    #331c4b 82%,
+    #3f1835 100%
+  );
+  color: $l21-color-text-main;
+}
+
+/* Shared page wrapper */
+.l21-page {
+  @include l21-section-padding;
+  @include l21-max-width;
+}

@@ -1,0 +1,61 @@
+// Lounge21 – Vibrant Deco Lounge palette
+
+// BASE COLORS (still night-time, but not muddy)
+$l21-color-bg: #05091a; // deep midnight navy
+$l21-color-surface: #0b1229; // main surface panels
+$l21-color-surface-soft: #111a3a; // softer cards / sections
+$l21-color-border-subtle: #222c54;
+
+// TEXT
+$l21-color-text-main: #fef6e9; // warm cream
+$l21-color-text-muted: #a2b1da; // cool lilac-blue
+
+// ACCENTS – vivid club colors
+$l21-color-accent-gold: #ffbf5c;
+$l21-color-accent-gold-soft: #ffe1a3;
+$l21-color-accent-teal: #20d7e4;
+$l21-color-accent-rose: #ff5f9e;
+$l21-color-accent-violet: #8157ff;
+
+// STATUS
+$l21-color-success: #4ad196;
+$l21-color-warning: #f7c96a;
+$l21-color-danger: #ff5c6c;
+
+// TYPOGRAPHY
+$l21-font-family-display: "L21 Display", system-ui, sans-serif;
+$l21-font-family-body: "L21 Sans", system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", sans-serif;
+
+$l21-font-size-h1: 3rem;
+$l21-font-size-h2: 2.25rem;
+$l21-font-size-h3: 1.75rem;
+$l21-font-size-body-lg: 1.125rem;
+$l21-font-size-body: 1rem;
+$l21-font-size-caption: 0.875rem;
+
+// SPACING
+$l21-space-2: 2px;
+$l21-space-4: 4px;
+$l21-space-8: 8px;
+$l21-space-12: 12px;
+$l21-space-16: 16px;
+$l21-space-24: 24px;
+$l21-space-32: 32px;
+$l21-space-48: 48px;
+$l21-space-64: 64px;
+
+// RADIUS
+$l21-radius-sm: 8px;
+$l21-radius-md: 16px;
+$l21-radius-lg: 24px;
+
+// MOTION
+$l21-motion-fast: 150ms;
+$l21-motion-normal: 260ms;
+$l21-motion-slow: 360ms;
+$l21-motion-ambient: 42s;
+
+$l21-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+$l21-ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+$l21-ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
